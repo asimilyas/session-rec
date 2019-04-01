@@ -1,7 +1,7 @@
-<h1>SBPyRec</h1>
+<h1>session-rec</h1>
 <h2>Introduction</h2>
 
-<b>SBPyRec</b> is a Python-based framework for building and evaluating recommender systems (Python 3.5.x). It
+<b>session-rec</b> is a Python-based framework for building and evaluating recommender systems (Python 3.5.x). It
 implements a suite of state-of-the-art
 algorithms and baselines for session-based recommendation.
 <br><br>
@@ -50,7 +50,7 @@ Parts of the framework and its algorithms are based on code developed and shared
 
 
 <h2>Requirements</h2>
-To run SBPyRec, the following libraries are required:
+To run session-rec, the following libraries are required:
 <ul>
     <li>Anaconda 4.X (Python 3.5+)</li>
     <li>Pympler</li>
@@ -82,27 +82,17 @@ Run the following command:
             data/rsc15/raw
         </li>
         <li>
-            Open the script run_preprocessing*.py to configure the preprocessing method and parameters.
+            Open and edit any configuration file in the folder conf/preprocess/.. to configure the preprocessing method and parameters.
             <ul>
                 <li>
-                    preprocess_rsc15.py is for the RecSys challenge dataset.
-                </li>
-                <li>
-                    preprocess_retailrocket.py is for the Retailrocket competition dataset.
-                </li>
-                <li>
-                    preprocess_diginetica.py is for the CIKM Cup 2016 dataset.
-                </li>
-                <li>
-                    preprocess_playlist.py is for all music datasets (configuration of the input and output path
-                    inside the file).
+                    See, e.g., conf/preprocess/window/window_rsc15.yml for an example with comments.  
                 </li>
             </ul>
         </li>
         <li>
-            Run the script with the following command: </br>
+            Run a configuration with the following command: </br>
             <code>
-                python preprocess_*.py
+                python run_preprocesing.py conf/preprocess/window/window_rsc15.yml
             </code>
         </li>
     </ol>
