@@ -323,25 +323,19 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
             </td>
         </tr>
         <tr>
+            <td scope="row">Session-based kNN</td>
+            <td>sknn.py</td>
+            <td>
+                Recommend items from the most similar sessions, where session distance is determined with the cosine similarity function or the jaccard index. 
+            </td>
+        </tr>
+        <tr>
             <td scope="row">Vector Multiplication Session-Based kNN</td>
             <td>vsknn.py</td>
             <td>More emphasis on the more recent events of a session when computing the similarities. The weights of
                 the other elements are determined using a linear decay function that
                 depends on the position of the element within the session, where elements appearing earlier in the
-                session obtain a lower weight.
-            </td>
-        </tr>
-        <tr>
-            <td scope="row">Sequential Session-based kNN</td>
-            <td>sknn.py</td>
-            <td>More weight on elements that appear later in the session. The weight(i,s) increases when the more
-                recent items of the current session s also appeared in a neighboring session n.
-            </td>
-        </tr>
-        <tr>
-            <td scope="row">Sequential Filter Session-based kNN</td>
-            <td></td>
-            <td>MALTE
+                session obtain a lower weight. 
             </td>
         </tr>
     </table>
