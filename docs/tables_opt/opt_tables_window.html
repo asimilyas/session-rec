@@ -109,7 +109,7 @@
 					<td align="right">True</td><!--constrained_embedding -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 					<td align="right">TOP1-MAX</td><!--loss -->
 					<td align="right">ELU-0.5</td><!--final-act -->
 					<td align="right">0.07</td><!--learning_rate -->
@@ -225,7 +225,7 @@
 					<td align="right">0.0009</td><!--init_lr -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 					<td align="right">20</td><!--n_epochs -->
 					<td align="right">0.1</td><!--decay_rate -->
 					<td align="right">0.0008</td><!--init_lr -->
@@ -260,7 +260,7 @@
 		</div>
 		<div id="opt-narm" class="tab-pane fade">
 
-			<h3>Hyperparameters for <span class="caps">narm</span> (fixed factors' number of 100, layer size of of 100, and epochs' number of 20)</h3>
+			<h3>Hyperparameters for <span class="caps">narm</span> (fixed layer size of of 100 and epochs' number of 20)</h3>
 			<p>
 				We tested the following hyperparameter space:
 			</p>
@@ -274,9 +274,9 @@
 				</tr>
 				<tr>
 					<td>Learning Rate</td>
-					<td align="right">0.1<br>0.5</td>
-					<td align="right">0.01<br>0.1</td>
-					<td align="right">10<br>5</td>
+					<td align="right">0.01<br>0.0001</td>
+					<td align="right">0.001<br>0.001</td>
+					<td align="right">10<br>10</td>
 				</tr>
 			</tbody></table>
 			<br>
@@ -304,7 +304,7 @@
 				 	<td align="right">0.0007</td><!--learning_rate -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 				 	<td align="right">0.008</td><!--learning_rate -->
 				</tr>
 				<tr>
@@ -383,7 +383,7 @@
 					<td align="right">False</td><!--is_negsample -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 					<td align="right">0.009</td><!--learning_rate -->
 					<td align="right">20</td><!--iteration -->
 					<td align="right">False</td><!--is_negsample -->
@@ -400,7 +400,7 @@
 		</div>
 		<div id="opt-sr" class="tab-pane fade">
 
-			<h3>Hyperparameters for <span class="caps">sr</span> (fixed pruning size of 100)</h3>
+			<h3>Hyperparameters for <span class="caps">sr</span></h3>
 			<p>
 				We tested the following hyperparameter space:
 			</p>
@@ -458,7 +458,7 @@
 				 	<td align="right">Quadratic</td><!--weighting -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 					<td align="right">30</td><!--steps -->
 				 	<td align="right">Quadratic</td><!--weighting -->
 				</tr>
@@ -488,7 +488,7 @@
 		</div>
 		<div id="opt-sknn" class="tab-pane fade">
 
-			<h3>Hyperparameters for <span class="caps">sknn</span> (fixed sampling mode of recent)</h3>
+			<h3>Hyperparameters for <span class="caps">sknn</span></h3>
 			<p>
 				We tested the following hyperparameter space:
 			</p>
@@ -546,7 +546,7 @@
 					<td align="right">Cosine</td><!--similarity -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 					<td align="right">1000</td><!--neighbors -->
 					<td align="right">5000</td><!--sample-size -->
 					<td align="right">Cosine</td><!--similarity -->
@@ -581,7 +581,7 @@
 		</div>
 		<div id="opt-vsknn" class="tab-pane fade">
 
-			<h3>Hyperparameters for <span class="caps">vsknn</span> (fixed sampling mode of recent)</h3>
+			<h3>Hyperparameters for <span class="caps">vsknn</span></h3>
 			<p>
 				We tested the following hyperparameter space:
 			</p>
@@ -657,7 +657,7 @@
 				 	<td align="right">5</td><!--idf_weighting -->
 				</tr>
 				<tr>
-                	<td>DIGINETICA - Set2</td><!--dataset -->
+                	<td>DIGINETICA (STAMP)</td><!--dataset -->
 					<td align="right">50</td><!--neighbors -->
 					<td align="right">2500</td><!--sample-size -->
 					<td align="right">Log</td><!--weighting -->
