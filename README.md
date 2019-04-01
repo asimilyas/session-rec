@@ -266,6 +266,7 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
 <h2>Algorithms</h2>
 <div>
     <h3>Baselines</h3>
+    <div>
     <table class="table table-hover table-bordered">
 
         <tr>
@@ -307,8 +308,10 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
             </td>
         </tr>
     </table>
+</div>
 
     <h3>Nearest Neighbors</h3>
+    <div>
     <table class="table table-hover table-bordered">
         <tr>
             <th width="20%" scope="col"> Algorithm</th>
@@ -345,8 +348,9 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
             </td>
         </tr>
     </table>
-
+</div>
     <h3>Neural Networks</h3>
+    <div>
     <table class="table table-hover table-bordered">
         <tr>
             <th width="20%" scope="col"> Algorithm</th>
@@ -381,9 +385,11 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
             </td>
         </tr>
     </table>
+    </div>
 
 
     <h3>Factorization-based Methods</h3>
+    <div>
     <table class="table table-hover table-bordered">
         <tr>
             <th width="20%" scope="col"> Algorithm</th>
@@ -468,9 +474,9 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
             <td class="tg-0pky">A private music dataset with hand-crafted playlists.</td>
         </tr>
     </table>
-
+</div>
     <h3>Statistics</h3>
-
+<div>
     <table class="tg">
         <tr>
             <th class="tg-0pky" width="25%" scope="col">Dataset</th>
@@ -546,7 +552,8 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
         </tr>
     </table>
 
-
+</div>
+<div>
     <table class="tg">
         <tr>
             <th class="tg-0pky" width="25%" scope="col">Dataset</th>
