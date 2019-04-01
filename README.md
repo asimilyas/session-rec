@@ -267,49 +267,46 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
 <div>
     <h3>Baselines</h3>
     <div>
-    <table class="table table-hover table-bordered">
-
-        <tr>
-            <th width="20%" scope="col"> Algorithm</th>
-            <th width="12%" class="conf" scope="col">File</th>
-            <th width="68%" class="conf" scope="col">Description</th>
-        </tr>
-
-        <tr>
-            <td scope="row">Association Rules</td>
-            <td>ar.py</td>
-            <td>Simplified version of the association rule mining technique with a maximum rule size of two.<br>
-            </td>
-        </tr>
-        <tr>
-            <td scope="row">Markov Chains</td>
-            <td>markov.py</td>
-            <td>Variant of association rules with a focus on sequences in the data. The rules are extracted from a
-                first-order Markov Chain.
-            </td>
-        </tr>
-        <tr>
-            <td scope="row">Sequential Rules</td>
-            <td>sr.py</td>
-            <td>Variation of mc or ar respectively. It also takes the order of actions into account, but in a less
-                restrictive manner.
-            </td>
-        </tr>
-        <tr>
-            <td scope="row">BPR-MF</td>
-            <td>bpr.py</td>
-            <td>Rendle et al., BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009.
-            </td>
-        </tr>
-        <tr>
-            <td scope="row">Context Tree</td>
-            <td>ct.py</td>
-            <td>Mi et al., Context Tree for Adaptive Session-based Recommendation, 2018.
-            </td>
-        </tr>
-    </table>
-</div>
-
+        <table class="table table-hover table-bordered">
+            <tr>
+                <th width="20%" scope="col"> Algorithm</th>
+                <th width="12%" class="conf" scope="col">File</th>
+                <th width="68%" class="conf" scope="col">Description</th>
+            </tr>
+            <tr>
+                <td scope="row">Association Rules</td>
+                <td>ar.py</td>
+                <td>Simplified version of the association rule mining technique with a maximum rule size of two.<br>
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">Markov Chains</td>
+                <td>markov.py</td>
+                <td>Variant of association rules with a focus on sequences in the data. The rules are extracted from a
+                    first-order Markov Chain.
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">Sequential Rules</td>
+                <td>sr.py</td>
+                <td>Variation of mc or ar respectively. It also takes the order of actions into account, but in a less
+                    restrictive manner.
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">BPR-MF</td>
+                <td>bpr.py</td>
+                <td>Rendle et al., BPR: Bayesian Personalized Ranking from Implicit Feedback, UAI 2009.
+                </td>
+            </tr>
+            <tr>
+                <td scope="row">Context Tree</td>
+                <td>ct.py</td>
+                <td>Mi et al., Context Tree for Adaptive Session-based Recommendation, 2018.
+                </td>
+            </tr>
+        </table>
+    </div>
     <h3>Nearest Neighbors</h3>
     <div>
     <table class="table table-hover table-bordered">
@@ -386,8 +383,6 @@ Tip: look at the implementation of a baseline (e.g.: ar.py).
         </tr>
     </table>
     </div>
-
-
     <h3>Factorization-based Methods</h3>
     <div>
     <table class="table table-hover table-bordered">
