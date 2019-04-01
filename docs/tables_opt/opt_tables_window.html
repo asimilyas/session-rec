@@ -3,12 +3,9 @@
 		<li class=""><a href="#opt-stamp" data-toggle="tab" aria-expanded="true">STAMP</a></li>
 		<li class=""><a href="#opt-narm" data-toggle="tab" aria-expanded="true">NARM</a></li>
 		<li class=""><a href="#opt-nextitnet" data-toggle="tab" aria-expanded="true">NEXTITNET</a></li>
-		<li><a href="#opt-ar" data-toggle="tab" aria-expanded="true">AR</a></li>
 		<li><a href="#opt-sr" data-toggle="tab" aria-expanded="true">SR</a></li>
 		<li><a href="#opt-sknn" data-toggle="tab" aria-expanded="true">SKNN</a></li>
 		<li><a href="#opt-vsknn" data-toggle="tab" aria-expanded="true">VSKNN</a></li>
-		<li><a href="#opt-ct" data-toggle="tab" aria-expanded="true">CT</a></li>
-
 	</ul>
 	<div class="tab-content">
 		<div id="opt-gru4rec" class="tab-pane fade active in">
@@ -401,11 +398,6 @@
 			<br>
 
 		</div>
-		<div id="opt-ar" class="tab-pane fade">
-
-			<h3>Hyperparameters for <span class="caps">ar</span> <br>fixed pruning size of 20</h3>
-
-		</div>
 		<div id="opt-sr" class="tab-pane fade">
 
 			<h3>Hyperparameters for <span class="caps">sr</span> (fixed pruning size of 100)</h3>
@@ -704,52 +696,6 @@
 					<td align="right">Quadratic</td><!--weighting_score -->
 					<td align="right">False</td><!--idf_weighting -->
 				</tr>
-			</tbody></table>
-			<br>
-
-		</div>
-		<div id="opt-ct" class="tab-pane fade">
-
-			<h3>Hyperparameters for <span class="caps">vsknn</span></h3>
-			<p>
-				We tested the following hyperparameter space:
-			</p>
-			<table class="hyper-space">
-				<tbody>
-				<tr>
-					<th>Parameter</th>
-					<th>Options</th>
-				</tr>
-				<tr>
-					<td>Expert</td>
-                    <td align="right">StdExpert, DirichletExpert</td>
-				</tr>
-				<tr>
-					<td>Max Considered Context Length</td>
-                    <td align="right">5,10,20,30,40,50,75</td>
-				</tr>
-				<tr>
-					<td>Number of Recent Candidates (Only for Adaptive Configuration)</td>
-                    <td align="right">5,10,20,30,40,50,75</td>
-				</tr>
-			</tbody></table>
-			<br>
-			<table class="hyper-params">
-
-				<tbody>
-                <tr>
-					<th>Dataset</th>
-					<th>Expert</th>
-					<th>Max Considered Context Length</th>
-					<th>Number of Recent Candidates</th>
-				</tr>
-			    <tr>
-					<td>All</td><!--dataset -->
-					<td align="right">StdExpert</td><!--expert -->
-					<td align="right">50</td><!--history_maxlen -->
-					<td align="right">1000</td><!--nb_candidates -->
-				</tr>
-
 			</tbody></table>
 			<br>
 
