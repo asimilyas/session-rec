@@ -184,8 +184,8 @@
 				</tr>
 				<tr>
 					<td>Learning Rate</td>
-					<td align="right">0.01<br>0.0001</td>
-					<td align="right">0.001<br>0.001</td>
+					<td align="right">0.001<br>0.0001</td>
+					<td align="right">0.01<br>0.001</td>
 					<td align="right">10<br>10</td>
 				</tr>
 			</tbody></table>
@@ -211,7 +211,7 @@
 		</div>
 		<div id="opt-sigle-nextitnet" class="tab-pane fade">
 
-			<h3>Hyperparameters for <span class="caps">nextitnet</span> (?)</h3>
+			<h3>Hyperparameters for <span class="caps">nextitnet</span></h3>
 			<p>
 				We tested the following hyperparameter space:
 			</p>
@@ -225,8 +225,8 @@
 				</tr>
 				<tr>
 					<td>Learning Rate</td>
-					<td align="right">0.01<br>0.001</td>
 					<td align="right">0.001<br>0.0001</td>
+					<td align="right">0.01<br>0.001</td>
 					<td align="right">10<br>5</td>
 				</tr>
 				<tr>
@@ -306,11 +306,11 @@
 					<td align="right">2</td><!--steps -->
 					<td align="right">Log</td><!--weighting -->
 				</tr>
-			    <!--<tr> todo: add best params
-                	<td>RSC15/64</td>&lt;!&ndash;dataset &ndash;&gt;
-					<td align="right">7</td>&lt;!&ndash;steps &ndash;&gt;
-					<td align="right">Div</td>&lt;!&ndash;weighting &ndash;&gt;
-				</tr>-->
+			    <tr>
+                	<td>RSC15/64</td><!--dataset -->
+					<td align="right">4</td><!--steps -->
+					<td align="right">Quadratic</td><!--weighting -->
+				</tr>
 				<tr>
                 	<td>DIGINETICA</td><!--dataset -->
 					<td align="right">15</td><!--steps -->
@@ -361,16 +361,16 @@
 					<td align="right">500</td><!--sample-size -->
 					<td align="right">Jaccard</td><!--similarity -->
 				</tr>
-			    <!--<tr> todo: add!
-                	<td>RSC15/64</td>&lt;!&ndash;dataset &ndash;&gt;
-					<td align="right">50</td>&lt;!&ndash;neighbors &ndash;&gt;
-					<td align="right">5000</td>&lt;!&ndash;sample-size &ndash;&gt;
-					<td align="right">Cosine</td>&lt;!&ndash;similarity &ndash;&gt;
-				</tr>-->
+			    <tr>
+                	<td>RSC15/64</td><!--dataset -->
+					<td align="right">50</td><!--neighbors -->
+					<td align="right">5000</td><!--sample-size -->
+					<td align="right">Cosine</td><!--similarity -->
+				</tr>
                 <tr>
                 	<td>DIGINETICA</td><!--dataset -->
-					<td align="right">50</td><!--neighbors -->
-					<td align="right">500</td><!--sample-size -->
+					<td align="right">500</td><!--neighbors -->
+					<td align="right">1000</td><!--sample-size -->
 					<td align="right">Cosine</td><!--similarity -->
 				</tr>
 			</tbody></table>
@@ -430,14 +430,14 @@
 					<td align="right">Quadratic</td><!--weighting_score -->
 					<td align="right">5</td><!--idf_weighting -->
 				</tr>
-			<!--    <tr> todo: add!
-                	<td>RSC15/64</td>&lt;!&ndash;dataset &ndash;&gt;
-					<td align="right">1500</td>&lt;!&ndash;neighbors &ndash;&gt;
-					<td align="right">2500</td>&lt;!&ndash;sample-size &ndash;&gt;
-					<td align="right">Same</td>&lt;!&ndash;weighting &ndash;&gt;
-					<td align="right">Linear</td>&lt;!&ndash;weighting_score &ndash;&gt;
-					<td align="right">10</td>&lt;!&ndash;idf_weighting &ndash;&gt;
-				</tr>-->
+			    <tr> todo: add!
+                	<td>RSC15/64</td><!--dataset -->
+					<td align="right">1000</td><!--neighbors -->
+					<td align="right">5000</td><!--sample-size -->
+					<td align="right">Log</td><!--weighting -->
+					<td align="right">Quadratic</td><!--weighting_score -->
+					<td align="right">2</td><!--idf_weighting -->
+				</tr>
 				<tr>
                 	<td>DIGINETICA</td><!--dataset -->
 					<td align="right">500</td><!--neighbors -->
