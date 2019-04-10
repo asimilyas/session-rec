@@ -85,14 +85,14 @@ Run the following command:
             Open and edit any configuration file in the folder conf/preprocess/.. to configure the preprocessing method and parameters.
             <ul>
                 <li>
-                    See, e.g., conf/preprocess/window/window_rsc15.yml for an example with comments.  
+                    See, e.g., conf/preprocess/window/rsc15.yml for an example with comments.  
                 </li>
             </ul>
         </li>
         <li>
             Run a configuration with the following command: </br>
             <code>
-                python run_preprocesing.py conf/preprocess/window/window_rsc15.yml
+                python run_preprocessing.py conf/preprocess/window/rsc15.yml
             </code>
         </li>
     </ol>
